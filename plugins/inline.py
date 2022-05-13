@@ -103,7 +103,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('➕ ᴀᴅᴅ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url='https://t.me/filesearchxbot?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url='https://t.me/s_searcherbot?startgroup=true')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
