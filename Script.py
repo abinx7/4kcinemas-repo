@@ -24,8 +24,8 @@ class script(object):
 - /stickerid - 𝖦𝖾𝗍 𝖨𝖣
 """
     ABOUT_TXT = """
-○ 𝖬𝗒 𝖭𝖺𝗆e : 𝖳𝗈𝗏𝗂𝗇𝗈
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/vloggerdeven_TG'>𝖽𝗄 [𝖮𝖥𝖥𝖫𝖨𝖭𝖤]</a>
+○ 𝖬𝗒 𝖭𝖺𝗆e : 𝖲-𝖲𝖾𝖺𝗋𝖼𝗁𝖾𝗋
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/sarathi_admin'>Ⓢ︎Ⓐ︎Ⓡ︎Ⓐ︎Ⓣ︎Ⓗ︎Ⓘ︎</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
