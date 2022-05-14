@@ -5,10 +5,10 @@ from plugins.function import make_carbon
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 aiohttpsession = ClientSession()
 
-C = "This Carbon is made by @FILESEARCHxBOT"
+C = "This Carbon is made by @s_searcherbot"
 F = InlineKeyboardMarkup(
 [[
-     InlineKeyboardButton("ᴅᴋ ʙᴏᴛx", url="https://t.me/dk_botx")
+     InlineKeyboardButton("SS_Linkz", url="https://t.me/ss_linkz")
 ]]
 )
 
