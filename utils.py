@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, redirected_env
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM
 from imdb import IMDb
 import asyncio
 from pyrogram.types import Message
@@ -33,7 +33,6 @@ class temp(object):
     BANNED_USERS = []
     BANNED_CHATS = []
     ME = None
-    MENTION = None
     CURRENT=int(os.environ.get("SKIP", 2))
     CANCEL = False
     MELCOW = {}
@@ -178,7 +177,7 @@ async def get_settings(group_id):
     
 async def save_group_settings(group_id, key, value):
     current = await get_settings(group_id)
-    current[key] = redirected_env(value) if key == "redirect_to"  else value   
+    current[key] = value
     temp.SETTINGS[group_id] = current
     await db.update_settings(group_id, current)
     
