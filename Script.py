@@ -33,7 +33,7 @@ Pay attention to the following…
 => OTT இயங்குதளங்களில் வெளியிடப்படாத திரைப்படங்களைக் கேட்க வேண்டாம்.</b>
 """
     
-    SPELL_TXT = '<b>🤝 ᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴍᴏᴛʜᴇʀ ᴛᴏᴜɴɢᴇ ᴀɴᴅ ʀᴇᴀᴅ ᴛʜᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ..👇\n\n🤝 ᴏʀ ꜱᴇᴀʀᴄʜ ɪᴛ ᴏɴ ɢᴏᴏɢʟᴇ ᴜꜱɪɴɢ ᴛʜᴇ ɢᴏᴏɢʟᴇ ʙᴜᴛᴛᴏɴ\n\n🤝 ᴏʀ ʀᴇQᴜᴇꜱᴛ ʜᴇʀᴇ 👉 <a href=https://t.me/MoviesHubGroup2>◥Moviehub 𝐌𝐇™◤</a></b>'
+    SPELL_TXT = '<b>🤝 ᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴍᴏᴛʜᴇʀ ᴛᴏᴜɴɢᴇ ᴀɴᴅ ʀᴇᴀᴅ ᴛʜᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ..👇\n\n🤝 ᴏʀ ꜱᴇᴀʀᴄʜ ɪᴛ ᴏɴ ɢᴏᴏɢʟᴇ ᴜꜱɪɴɢ ᴛʜᴇ ɢᴏᴏɢʟᴇ ʙᴜᴛᴛᴏɴ\n\n🤝 ᴏʀ ʀᴇQᴜᴇꜱᴛ ʜᴇʀᴇ 👉 <a href=https://t.me/CinemaKendram>◥Moviehub 𝐌𝐇™◤</a></b>'
     
     GTRANS_TXT = """<b>𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝗈𝗋</b>
 - 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾 𝗍𝖾𝗑𝗍𝗌 𝗍𝗈 𝖺 𝗌𝗉𝖾𝖼𝗂𝖿𝗂𝖼 𝗅𝖺𝗇𝗀𝗎𝖺𝗀𝖾!
@@ -52,15 +52,15 @@ Pay attention to the following…
 <b>Command</b>
 - /stickerid - 𝖦𝖾𝗍 𝖨𝖣
 """
-    ABOUT_TXT = """
-○ 𝖬𝗒 𝖭𝖺𝗆e : 𝖲-𝖲𝖾𝖺𝗋𝖼𝗁𝖾𝗋
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/sarathi_admin'>Ⓢ︎Ⓐ︎Ⓡ︎Ⓐ︎Ⓣ︎Ⓗ︎Ⓘ︎</a>
-○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
-○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
-○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
-○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
-○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵9.6 [BeTa]
-"""
+    ABOUT_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍᴏᴠɪᴇ ʜᴜʙ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @CinemaKendram
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href=https://t.me/CinemaKendram>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+⍟───[ 💭 ᴍᴏᴠɪᴇ ʜᴜʙ 💭 ]───⍟</b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴛᴇᴀᴍ ᴇᴠᴀᴍᴀʀɪᴀ
+• ᴛᴇᴀᴍ ʟɪɴᴋ : <a href=https://t.me/TeamEvaMaria>ᴛᴇᴀᴍ ᴇᴠᴀᴍᴀʀɪᴀ</a></b>"""
+    
     SOURCE_TXT = """<b>NOTE:</b>
 - This is a closed source project.   
 
@@ -291,4 +291,5 @@ Added By - {}
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
+bot - @IMDB_MHBOT
 """
