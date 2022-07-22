@@ -77,7 +77,10 @@ async def start(client, message: pyrogram.types.Message):
     ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
-
+        await message.reply_chat_action("typing")
+        m=await message.reply_sticker("CAACAgIAAxkBAALdtWKbQQeiW14ql5zd86zLUzJO_HCVAAKHFQACPQ9QSd6bZv3Wx6O_HgQ") 
+        await asyncio.sleep(2)
+        await m.delete()
         await message.reply_photo(
             photo=START_IMAGE_URL if START_IMAGE_URL else random.choice(PICS),
             caption=script.START_TXT.format(
