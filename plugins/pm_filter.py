@@ -952,7 +952,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴇɴɢ', callback_data='eng'),
             InlineKeyboardButton('ʜɴᴅ', callback_data='hnd')
         ],[
-            InlineKeyboardButton('🗣️ ʀᴇQᴜᴇꜱᴛ ʜᴇʀᴇ 🗣️', url='https://t.me/MoviesHubGroup2') 
+            InlineKeyboardButton('🗣️ ʀᴇQᴜᴇꜱᴛ ʜᴇʀᴇ 🗣️', url='https://t.me/CinemaKendram') 
         ]]
         await query.message.edit_text(text=script.SPELL_TXT, reply_markup=InlineKeyboardMarkup(btn))
         
