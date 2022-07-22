@@ -1125,7 +1125,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            fmsg = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            fmsg = await message.reply_photo(photo="https://telegra.ph/file/bb8f694df185be4bc367d.jpg", caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             logger.exception(e)
             fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
