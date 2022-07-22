@@ -1064,7 +1064,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
         [
             InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/MoviesHub_Updates'),
             InlineKeyboardButton('ᴛɪᴘs', 'tips'),
-            InlineKeyboardButton(f'ғɪʟᴇs: {len(files)}', 'reqst1')
+            InlineKeyboardButton(f'ғɪʟᴇs: {total_results}', 'reqst1')
         ]
     )
 
