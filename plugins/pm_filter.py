@@ -1120,7 +1120,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
         cap = f"〓〓〓 <b>[{search}](https://t.me/UrvashiTheaters)</b> 〓〓〓\n\n<b>⭐️ ɪᴍᴅʙ N/A | ⏰ ʀᴜɴ N/A ᴍɪɴ\n📆 ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : [N/A](https://t.me/MoviesHubGroup2)\n\n● <code>Thriller, Family, Drama</code></b>\n● <code>N/A</code>\n\n📖 sᴛᴏʀʏ : <code>N/A</code>\n\n<b>★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [{message.chat.title}](https://t.me/MoviesHubGroup2)</b>"
     if imdb and imdb.get('poster'):
         try:
-            fmsg = await message.reply_photo(photo=https://telegra.ph/file/bb8f694df185be4bc367d.jpg.get('poster'), caption=cap[:1024],
+            fmsg = await message.reply_photo(photo="https://telegra.ph/file/bb8f694df185be4bc367d.jpg".get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
