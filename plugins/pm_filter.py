@@ -1175,46 +1175,26 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
         cap = f"〓〓〓 <b>[{search}](https://t.me/MH_Linkz)</b> 〓〓〓\n\n<b>⭐️ ɪᴍᴅʙ N/A | ⏰ ʀᴜɴ N/A ᴍɪɴ\n📆 ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : [N/A](https://t.me/MoviesHubGroup2)\n\n● <code>Thriller, Family, Drama</code></b>\n● <code>N/A</code>\n\n📖 sᴛᴏʀʏ : <code>N/A</code>\n\n<b>★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [{message.chat.title}](https://t.me/MoviesHubGroup2)</b>"
     if imdb and imdb.get('poster'):
         try:
-            hehe = await message.reply_photo(photo="https://telegra.ph/file/bb8f694df185be4bc367d.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(10)
             await hehe.delete()
-            await message.edit_text(
-                chat_id=message.chat.id,
-                photo="https://te.legra.ph/file/89c9ae7307f0c34dec77c.jpg",
-                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️",
-                reply_to_message_id=message.message_id
-            )
+            await message.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️", disable_notification = True)
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            hmm = await message.reply_photo(photo="https://telegra.ph/file/bb8f694df185be4bc367d.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(10)
-            await hmm.edit_text(
-                chat_id=message.chat.id,
-                photo="https://te.legra.ph/file/89c9ae7307f0c34dec77c.jpg",
-                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️",
-                reply_to_message_id=message.message_id
-            )
+            await hmm.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️", disable_notification = True)
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(10)
-            await fek.edit_text(
-                chat_id=message.chat.id,
-                photo="https://te.legra.ph/file/89c9ae7307f0c34dec77c.jpg",
-                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️",
-                reply_to_message_id=message.message_id
-            )
+            await fek.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️")
     else:
         fuk = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(10)
         await fuk.delete()
-        await message.edit_text(
-                chat_id=message.chat.id,
-                photo="https://te.legra.ph/file/89c9ae7307f0c34dec77c.jpg",
-                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️",
-                reply_to_message_id=message.message_id
-            )
+        await message.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️")
 
 
 async def advantage_spell_chok(msg):
