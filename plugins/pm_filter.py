@@ -1184,7 +1184,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(10)
-            await hmm.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️")
+            await hmm.replay_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️")
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
@@ -1194,7 +1194,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
         fuk = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(10)
         await fuk.delete()
-        await message.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️")
+        await message.replay_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> is Cʟᴏꜱᴇᴅ 🗑️")
 
 
 async def advantage_spell_chok(msg):
